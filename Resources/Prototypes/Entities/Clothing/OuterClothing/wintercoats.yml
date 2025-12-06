@@ -49,9 +49,9 @@
   description: A heavy jacket made from 'synthetic' animal furs.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
+    sprite: _Funkystation/Clothing/OuterClothing/WinterCoats/tide_coat.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
+    sprite: _Funkystation/Clothing/OuterClothing/WinterCoats/tide_coat.rsi
   - type: TemperatureProtection
     heatingCoefficient: 1.1
     coolingCoefficient: 0.4
@@ -123,22 +123,23 @@
   parent: [ClothingOuterWinterCoatToggleable, BaseCommandContraband]
   id: ClothingOuterWinterCap
   name: captain's winter coat
+  description: the captain's winter coat, feel fancy.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
+    sprite: _Funkystation/Clothing/OuterClothing/WinterCoats/cap_coat.rsi
     layers:
-    - state: CAP-icon
+    - state: icon
   - type: Item
     inhandVisuals:
       left:
-      - state: CAP-inhand-left
+      - state: inhand-left
       right:
-      - state: CAP-inhand-right
+      - state: inhand-right
   - type: Clothing
-    sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
+    sprite: _Funkystation/Clothing/OuterClothing/WinterCoats/cap_coat.rsi
     clothingVisuals:
       outerClothing:
-      - state: CAP-equipped-OUTERCLOTHING
+      - state: equipped-OUTERCLOTHING
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterCaptain
 
@@ -486,22 +487,23 @@
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterMiner
   name: mining winter coat
+  description: a shaft miners- i mean salvager's winter coat. what's the real name of these guys anyhow?
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
+    sprite: _Funkystation/Clothing/OuterClothing/WinterCoats/miner_coat.rsi
     layers:
-    - state: MINER-icon
+    - state: icon
   - type: Item
     inhandVisuals:
       left:
-      - state: MINER-inhand-left
+      - state: inhand-left
       right:
-      - state: MINER-inhand-right
+      - state: inhand-right
   - type: Clothing
-    sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
+    sprite: _Funkystation/Clothing/OuterClothing/WinterCoats/miner_coat.rsi
     clothingVisuals:
       outerClothing:
-      - state: MINER-equipped-OUTERCLOTHING
+      - state: equipped-OUTERCLOTHING
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterMiner
 
